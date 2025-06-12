@@ -1,0 +1,137 @@
+.projectbody {
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+.project-jive-container {
+  max-width: 1000px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.project-jive-container h1 {
+  font-size: 2.8rem;
+  margin-bottom: 40px;
+  color: #00bcd4;
+}
+
+section {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #03a9f4;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "🔹";
+  margin-right: 8px;
+}
+
+.box {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.box:hover {
+  border-image: linear-gradient(to right, #f39c12, #e74c3c) 1;
+  transform: translateY(-3px);
+}
+
+.accuracy-metrics {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.accuracy-box {
+  background: #1c1f2b;
+  border: 3px solid;
+  border-image: linear-gradient(to right, #f39c12, #e74c3c) 1;
+  border-radius: 16px;
+  padding: 20px 30px;
+  text-align: center;
+  width: 220px;
+  transition: transform 0.3s ease;
+}
+
+.accuracy-box:hover {
+  transform: scale(1.05);
+}
+
+.accuracy-box h3 {
+  margin: 10px 0 5px;
+  font-size: 1.4rem;
+  color: #f39c12;
+}
+
+.accuracy-box p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.charts-box{
+  display: flex;
+  gap: 20px;         /* spacing between images */
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  flex-wrap: wrap;    
+}
+.charts img {
+  
+  width: 100%;
+  max-width: 400px;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px auto;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+}
+
+.downloads p {
+  margin-bottom: 20px;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.image-link img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.image-link img:hover {
+  transform: scale(1.05);
+  border-image: linear-gradient(to right, #03a9f4, #00bcd4) 1;
+}
